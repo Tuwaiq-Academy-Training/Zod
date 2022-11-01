@@ -10,7 +10,7 @@
 
 نقوم بتثبيته بستخدام npm بالبداية يجب ان نتأكد من اصدار Node.js 8  فما فوق
 
-      npm install --save express-validator
+      npm install  express-validator
 
 
 ## خطوات البدء
