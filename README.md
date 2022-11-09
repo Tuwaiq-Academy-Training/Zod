@@ -305,23 +305,6 @@
         };
   
   وكما نلاحظ ان  في  try تم تمرير مايحتوية في body وفي  حال الفشل فسوف ينتقل بشكل تلقائي لـcatch 
- 
-## خطوات البدء
-
-من المستحسن أن تكون لديك معرفة أساسية بوحدة express.js قبل البدء بالخطوات.
-
-#### لنبدأ بكتابة مسار أساسي لإنشاء مستخدم في قاعدة البيانات:
-
-    const express = require('express');
-    const app = express();
-
-    app.use(express.json());
-    app.post('/user', (req, res) => {
-    User.create({
-     username: req.body.username,
-     password: req.body.password,
-    }).then(user => res.json(user));
-      });
    
 
 ## يتم تجميع رموز حالة استجابة HTTP في خمس فئات
