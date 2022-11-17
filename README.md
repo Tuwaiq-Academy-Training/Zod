@@ -37,8 +37,7 @@
 لتثبيت zod v8
 
     npm install zod       # npm
-    yarn add zod          # yarn
-    pnpm add zod          # pnpm
+  
 
 على عكس Node ، يعتمد Deno على عمليات استيراد عناوين URL المباشرة بدلاً من مدير الحزم مثل NPM. Zod متاح على deno.land/x. يمكن استيراد أحدث إصدار كما يلي:
 
